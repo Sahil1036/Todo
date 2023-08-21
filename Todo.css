@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* This is for html page */
+html {
+    background-image: url("6.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+/* This is a container of todo */
+.box {
+    margin: 50px auto;
+    width: 380px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0px 0px 9px -1px black, 0px 0px 9px -1px black;
+}
+
+/* This is head of todo */
+.head {
+    display: flex;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+img {
+    width: 50px;
+}
+
+/* This rule for input task and add */
+.top {
+    margin: 10px auto;
+    width: 350px;
+    height: 40px;
+    display: flex;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px -1px black, 0px 0px 9px -1px black;
+}
+
+.top input {
+    text-transform: capitalize;
+    width: 250px;
+    height: 30px;
+    padding: 6px;
+    margin-bottom: 8px;
+    background: transparent;
+    border: none;
+    border-right-style: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px -1px black, 0px 0px 9px -1px black;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(113, 113, 107);
+}
+
+button {
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 17px;
+    width: 90px;
+    height: 40px;
+    background-color: transparent;
+    box-shadow: 0px 0px 9px -1px black, 0px 0px 9px -1px black;
+    color: rgb(253, 253, 245);
+}
+
+/* This is a task text rule */
+h2 {
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+/* This rule for task which add in todo */
+.bottom {
+    text-transform: capitalize;
+    margin: 20px auto;
+    width: 360px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px -1px black, 0px 0px 9px -1px black;
+}
+
+.bottom div {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px -2px whitesmoke;
+    background-color: black;
+    opacity: .75;
+}
+
+.bottom div p {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    overflow: hidden;
+    color: whitesmoke;
+    cursor: default;
+}
+
+.task_check {
+    text-decoration: line-through;
+}
+
+.bottom div button {
+    text-transform: capitalize;
+}
+
+/* This is for responsiveness */
+@media only screen and (max-width:1150px) {
+
+    h1,
+    h2 {
+        color: rgb(88, 86, 86);
+    }
+}
