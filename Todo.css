@@ -117,9 +117,11 @@ h2 {
 }
 
 /* This is for responsiveness */
-/* @media only screen and (max-width:1150px) {
-
-    h1,
+@media only screen and (max-width:1150px) {
+html{
+    background-size:contain;
+}
+ /*   h1,
     h2 {
         color: rgb(88, 86, 86);
     }
