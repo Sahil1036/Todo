@@ -9,6 +9,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+    background-position-x:center;
 }
 
 /* This is a container of todo */
