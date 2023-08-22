@@ -3,8 +3,8 @@
     margin: 0;
 }
 
-/* This is for html page */
-html {
+/* This is for body page */
+body {
     background-image: url("6.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
