@@ -1,1 +1,65 @@
+<!DOCTYPE html>
 
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <meta http-equiv="refresh" content="30"> -->
+
+    <title>Todo.com</title>
+
+    <link rel="stylesheet" href="Todo.css">
+
+    <link rel="shortcut icon" href="3.png" type="image/x-icon">
+
+</head>
+
+
+
+<body>
+
+    <div class="box">
+
+        <!-- It is a head of todo -->
+
+        <div class="head">
+
+            <img src="3.png" alt="error404...">
+
+            <h1>Todolist:</h1>
+
+        </div>
+
+        <!-- It is a input of task -->
+
+        <div class="top">
+
+            <input class="text" type="text">
+
+            <button class="add">ADD</button>
+
+        </div>
+
+        <!-- It is a task container where task is add -->
+
+        <h2>Tasks:</h2>
+
+        <div class="bottom">
+
+        </div>
+
+    </div>
+
+    <script src="Todo.js"></script>
+
+</body>
+
+
+
+</html>
