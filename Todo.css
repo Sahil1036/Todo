@@ -118,8 +118,26 @@ h2 {
 
 /* This is for responsiveness */
 @media only screen and (max-width:1150px) {
-   h1,
-    h2 {
-        color: rgb(88, 86, 86);
+ body{
+        background-image: none;
+    } 
+    .box{
+        box-shadow:0px 0px 12px -5px whitesmoke, 0px 0px whitesmoke;
     }
+    .top{
+        box-shadow:0px 0px 12px -5px whitesmoke, 0px 0px whitesmoke;
+    }
+    .top input {
+        box-shadow:0px 0px 12px -5px whitesmoke, 0px 0px whitesmoke;
+    }
+    button{
+        color: rgb(35, 137, 35);
+        box-shadow:  -7px 12px -9px rgb(7, 45, 10);
+    }
+    .bottom{
+        box-shadow:0px 0px 12px -5px whitesmoke, 0px 0px whitesmoke;
+    }
+   .bottom div{
+    box-shadow:0px 0px 12px -5px whitesmoke, 0px 0px whitesmoke;
+   }
 } 
