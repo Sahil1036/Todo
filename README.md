@@ -1,3 +1,3 @@
 # TodoList
-![TodoList](https://github.com/Sahil1036/Todo/assets/141828257/6d0ebc57-c28c-486c-8aa3-4afb5120f50b|width=100)
+![TodoList](https://github.com/Sahil1036/Todo/assets/141828257/572a5322-1b99-4fe6-b40c-eb6a62c69aee|width=60)
 ## You can add your task in this todo web app
