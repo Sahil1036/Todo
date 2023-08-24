@@ -1,2 +1,2 @@
-# Todo List
-You can add your task in this todo app
+# TodoList
+## You can add your task in this todo web app
